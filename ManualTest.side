@@ -1,0 +1,102 @@
+{
+  "id": "5dab5246-0508-47c6-82a8-5eb735d4145c",
+  "version": "2.0",
+  "name": "ManualTest",
+  "url": " https://www.google.co.in",
+  "tests": [{
+    "id": "24f4aa1a-b609-4487-836a-ed500657ad68",
+    "name": "SearchTest",
+    "commands": [{
+      "id": "4411784a-9703-47cd-a923-401c34b4fb9e",
+      "comment": "",
+      "command": "open",
+      "target": " https://www.google.co.in",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f7060c2-f616-4f5e-b7b7-6be0bbc60930",
+      "comment": "",
+      "command": "clickAt",
+      "target": "name=q",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3970bf1-20f1-45ae-a887-c164049629e7",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [],
+      "value": "javaTpointJavaFX tutorial"
+    }, {
+      "id": "8b246b00-8e8b-4c29-8552-03b8e18eaf20",
+      "comment": "",
+      "command": "clickAt",
+      "target": "name=btnK",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e627af1c-a7aa-44a4-b244-ee2678fa3eef",
+    "name": "LoginTest",
+    "commands": [{
+      "id": "ff921705-1468-4c8a-b470-d615ff4e08e3",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.rediff.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9fe68064-4bcf-43b2-9e0c-d1403a8952db",
+      "comment": "",
+      "command": "clickAt",
+      "target": "link=Sign in",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4f6a725-063e-47eb-8776-ea88743bde35",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=login1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b04d6bce-6f3c-423d-a922-2421b88174ca",
+      "comment": "",
+      "command": "type",
+      "target": "id=login1",
+      "targets": [],
+      "value": "sagarsalyan"
+    }, {
+      "id": "f31037b5-50ef-4b27-a0a9-c0d32c538d11",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=password",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "541c8be0-8e71-4345-a3be-b527be2c8024",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [],
+      "value": "TestPassword"
+    }, {
+      "id": "f4ba5e76-4d2b-4a9a-8d02-076fc4999d9e",
+      "comment": "",
+      "command": "clickAt",
+      "target": "name=proceed",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "656c2c56-4ca8-49d0-9520-ea53bb047e1c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["24f4aa1a-b609-4487-836a-ed500657ad68"]
+  }],
+  "urls": ["https://www.google.co.in/"],
+  "plugins": []
+}

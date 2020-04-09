@@ -1,0 +1,86 @@
+{
+  "id": "9fa1c286-b72d-485d-8385-5b798ce9fa55",
+  "version": "2.0",
+  "name": "DemoTest",
+  "url": "https://www.google.co.in",
+  "tests": [{
+    "id": "b22175cc-75d8-4eb6-8886-510012a1c071",
+    "name": "javaTpoint_test",
+    "commands": [{
+      "id": "e2f7db10-8358-4010-8d50-5e4d11f7dee6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c65f6f7-cd05-47ec-8402-0af7558092ab",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1218x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75d7fb0b-0802-4bc1-96d4-bb2f254fa3a2",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "ba74cad8-920f-4c3f-82d7-72583cb9b33d",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "java tutorial"
+    }, {
+      "id": "0ba72ceb-26a1-4536-bc83-44a3948f1b81",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "cd47c9e6-a294-4dd8-887d-922bacf95003",
+      "comment": "",
+      "command": "click",
+      "target": "css=.g:nth-child(3) .LC20lb",
+      "targets": [
+        ["css=.g:nth-child(3) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div[3]/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Java Tutorial | Learn Java - javatpoint')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1d082ac4-1c0e-4465-9760-de573cb28f19",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b22175cc-75d8-4eb6-8886-510012a1c071"]
+  }],
+  "urls": ["https://www.google.co.in/"],
+  "plugins": []
+}
